@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Suite" parallel="tests">
+	<test name="Test on chrome">
+		<parameter name="browserName" value="chrome"></parameter>
+		<classes>
+			<class
+				name="SeleniumTestsFroUVS.SeleniumTestsFroUVS.HealthInsurancePageTests" />
+		</classes>
+	</test>
+	<test name="Test on FireFox">
+		<parameter name="browserName" value="firefox"></parameter>
+		<classes>
+			<class
+				name="SeleniumTestsFroUVS.SeleniumTestsFroUVS.HealthInsurancePageTests" />
+		</classes>
+	</test>
+	<test name="Test on Internet Explorer">
+		<parameter name="browserName" value="ie"></parameter>
+		<classes>
+			<class
+				name="SeleniumTestsFroUVS.SeleniumTestsFroUVS.HealthInsurancePageTests" />
+		</classes>
+	</test>
+</suite> 

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="9" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="241420" started-at="2019-03-24T22:41:59Z" finished-at="2019-03-24T22:46:00Z">
+    <groups>
+    </groups>
+    <test name="Test on chrome" duration-ms="18333" started-at="2019-03-24T22:41:59Z" finished-at="2019-03-24T22:42:17Z">
+      <class name="SeleniumTestsFroUVS.SeleniumTestsFroUVS.HealthInsurancePageTests">
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:SeleniumTestsFroUVS.SeleniumTestsFroUVS.HealthInsurancePageTests@4667ae56]" name="setDriver" is-config="true" duration-ms="7722" started-at="2019-03-24T22:41:59Z" finished-at="2019-03-24T22:42:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="FAIL" signature="testIfLoginWithGoodCredentials()[pri:0, instance:SeleniumTestsFroUVS.SeleniumTestsFroUVS.HealthInsurancePageTests@4667ae56]" name="testIfLoginWithGoodCredentials" duration-ms="3440" started-at="2019-03-24T22:42:07Z" finished-at="2019-03-24T22:42:10Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertFalse(Assert.java:65)
+at org.testng.Assert.assertFalse(Assert.java:75)
+at SeleniumTestsFroUVS.SeleniumTestsFroUVS.HealthInsurancePageTests.testIfLoginWithGoodCredentials(HealthInsurancePageTests.java:77)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:483)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfLoginWithGoodCredentials -->
+        <test-method status="PASS" signature="testIfOpenPasswReminder()[pri:0, instance:SeleniumTestsFroUVS.SeleniumTestsFroUVS.HealthInsurancePageTests@4667ae56]" name="testIfOpenPasswReminder" duration-ms="904" started-at="2019-03-24T22:42:10Z" finished-at="2019-03-24T22:42:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfOpenPasswReminder -->
+        <test-method status="PASS" signature="testIfShowsErrorWhenNotFillAllFields()[pri:0, instance:SeleniumTestsFroUVS.SeleniumTestsFroUVS.HealthInsurancePageTests@4667ae56]" name="testIfShowsErrorWhenNotFillAllFields" duration-ms="1828" started-at="2019-03-24T22:42:11Z" finished-at="2019-03-24T22:42:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfShowsErrorWhenNotFillAllFields -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTestsFroUVS.SeleniumTestsFroUVS.HealthInsurancePageTests@4667ae56]" name="tearDown" is-config="true" duration-ms="4404" started-at="2019-03-24T22:42:13Z" finished-at="2019-03-24T22:42:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumTestsFroUVS.SeleniumTestsFroUVS.HealthInsurancePageTests -->
+    </test> <!-- Test on chrome -->
+    <test name="Test on FireFox" duration-ms="24382" started-at="2019-03-24T22:41:59Z" finished-at="2019-03-24T22:42:23Z">
+      <class name="SeleniumTestsFroUVS.SeleniumTestsFroUVS.HealthInsurancePageTests">
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:SeleniumTestsFroUVS.SeleniumTestsFroUVS.HealthInsurancePageTests@6e06451e]" name="setDriver" is-config="true" duration-ms="14121" started-at="2019-03-24T22:41:59Z" finished-at="2019-03-24T22:42:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="FAIL" signature="testIfLoginWithGoodCredentials()[pri:0, instance:SeleniumTestsFroUVS.SeleniumTestsFroUVS.HealthInsurancePageTests@6e06451e]" name="testIfLoginWithGoodCredentials" duration-ms="3406" started-at="2019-03-24T22:42:13Z" finished-at="2019-03-24T22:42:16Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertFalse(Assert.java:65)
+at org.testng.Assert.assertFalse(Assert.java:75)
+at SeleniumTestsFroUVS.SeleniumTestsFroUVS.HealthInsurancePageTests.testIfLoginWithGoodCredentials(HealthInsurancePageTests.java:77)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:483)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfLoginWithGoodCredentials -->
+        <test-method status="PASS" signature="testIfOpenPasswReminder()[pri:0, instance:SeleniumTestsFroUVS.SeleniumTestsFroUVS.HealthInsurancePageTests@6e06451e]" name="testIfOpenPasswReminder" duration-ms="1181" started-at="2019-03-24T22:42:16Z" finished-at="2019-03-24T22:42:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfOpenPasswReminder -->
+        <test-method status="PASS" signature="testIfShowsErrorWhenNotFillAllFields()[pri:0, instance:SeleniumTestsFroUVS.SeleniumTestsFroUVS.HealthInsurancePageTests@6e06451e]" name="testIfShowsErrorWhenNotFillAllFields" duration-ms="1161" started-at="2019-03-24T22:42:18Z" finished-at="2019-03-24T22:42:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfShowsErrorWhenNotFillAllFields -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:SeleniumTestsFroUVS.SeleniumTestsFroUVS.HealthInsurancePageTests@6e06451e]" name="tearDown" is-config="true" duration-ms="4480" started-at="2019-03-24T22:42:19Z" finished-at="2019-03-24T22:42:23Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROMARIJO-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 6732, moz:profile: C:\Users\Romarijo\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bc685bf7-8b5e-47cd-bb55-c57d011c0303]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROMARIJO-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 6732, moz:profile: C:\Users\Romarijo\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bc685bf7-8b5e-47cd-bb55-c57d011c0303
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+at SeleniumTestsFroUVS.SeleniumTestsFroUVS.HealthInsurancePageTests.tearDown(HealthInsurancePageTests.java:120)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:483)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.afterRun(TestRunner.java:725)
+at org.testng.TestRunner.run(TestRunner.java:509)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumTestsFroUVS.SeleniumTestsFroUVS.HealthInsurancePageTests -->
+    </test> <!-- Test on FireFox -->
+    <test name="Test on Internet Explorer" duration-ms="241419" started-at="2019-03-24T22:41:59Z" finished-at="2019-03-24T22:46:00Z">
+      <class name="SeleniumTestsFroUVS.SeleniumTestsFroUVS.HealthInsurancePageTests">
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:SeleniumTestsFroUVS.SeleniumTestsFroUVS.HealthInsurancePageTests@4566e5bd]" name="setDriver" is-config="true" duration-ms="6805" started-at="2019-03-24T22:41:59Z" finished-at="2019-03-24T22:42:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="FAIL" signature="testIfLoginWithGoodCredentials()[pri:0, instance:SeleniumTestsFroUVS.SeleniumTestsFroUVS.HealthInsurancePageTests@4566e5bd]" name="testIfLoginWithGoodCredentials" duration-ms="127920" started-at="2019-03-24T22:42:06Z" finished-at="2019-03-24T22:44:14Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertFalse(Assert.java:65)
+at org.testng.Assert.assertFalse(Assert.java:75)
+at SeleniumTestsFroUVS.SeleniumTestsFroUVS.HealthInsurancePageTests.testIfLoginWithGoodCredentials(HealthInsurancePageTests.java:77)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:483)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfLoginWithGoodCredentials -->
+        <test-method status="PASS" signature="testIfOpenPasswReminder()[pri:0, instance:SeleniumTestsFroUVS.SeleniumTestsFroUVS.HealthInsurancePageTests@4566e5bd]" name="testIfOpenPasswReminder" duration-ms="1208" started-at="2019-03-24T22:44:14Z" finished-at="2019-03-24T22:44:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfOpenPasswReminder -->
+        <test-method status="PASS" signature="testIfShowsErrorWhenNotFillAllFields()[pri:0, instance:SeleniumTestsFroUVS.SeleniumTestsFroUVS.HealthInsurancePageTests@4566e5bd]" name="testIfShowsErrorWhenNotFillAllFields" duration-ms="104824" started-at="2019-03-24T22:44:15Z" finished-at="2019-03-24T22:46:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfShowsErrorWhenNotFillAllFields -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTestsFroUVS.SeleniumTestsFroUVS.HealthInsurancePageTests@4566e5bd]" name="tearDown" is-config="true" duration-ms="638" started-at="2019-03-24T22:46:00Z" finished-at="2019-03-24T22:46:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumTestsFroUVS.SeleniumTestsFroUVS.HealthInsurancePageTests -->
+    </test> <!-- Test on Internet Explorer -->
+  </suite> <!-- Suite -->
+</testng-results>
